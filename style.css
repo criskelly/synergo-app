@@ -1,11 +1,20 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/* ============= header */
+
 .header {
 	width: 100%;
-	background: #06C;
+	background: #06C url(images/footer-bg.png);
+	height: 50px;
 	text-align: center;	
 }
+
+h1 {
+	padding-top: 5px;
+}
+
+/* ============= body */
 
 .main-box {
 	text-align: center;
@@ -13,9 +22,9 @@
 	margin: 0 auto;	
 }
 	
-.highs-box, .lows-box,
-.portables-box, .ice-box,
-.all-box, .themes-box {
+.top-left-box, .top-right-box,
+.second-left-box, .second-right-box,
+.third-left-box, .third-right-box {
 	float: left;	
 	height: 50px;
 	width: 49%;	
@@ -32,6 +41,46 @@
 }
 
 .main-box a {
+	color: white;
 	text-decoration: none;
 	font-size: 2em;
+	text-shadow: 1px 1px 1px black;
 }
+
+/* ============= footer */
+
+.footer {
+}
+
+.footer-contents {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.today, .favs, .more {
+	float: left;	
+	height: 50px;
+	width: 25%;	
+	background: #333 url(images/footer-bg.png);	
+	margin: 3%;
+	text-align: center;	
+	position: relative;
+}
+
+.footer p {
+	margin-top: 15px;
+}
+
+.footer a {
+	font-size: .8em;
+	letter-spacing: 1em;
+	text-decoration: none;
+	color: black;
+	position: relative;
+	left: 4%;
+}
+
+/* ============= global */
+
+
+/* ============= mobile */
