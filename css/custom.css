@@ -17,19 +17,6 @@
  #home {
 	text-align: center; 
  }
- #beta {
- 	color: #bada55;
- 	text-shadow: none;
- 	position: absolute;
- 	top: 28px;
- 	left: 10%;
- 	z-index: 100;
- 	opacity: .7;
-	-ms-transform: rotate(-15deg); /* IE 9 */
-	-moz-transform: rotate(-15deg); /* Firefox */
-	-webkit-transform: rotate(-15deg); /* Safari and Chrome */
-	-o-transform: rotate(-15deg); /* Opera */
- }
 .homepage {
  	background: #4a322f url(../images/synergo-bg.png);
 	position:absolute; 
