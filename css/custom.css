@@ -5,34 +5,34 @@
 
 
  /* Today page */
- 
+
  #clear-btn {
 	margin-top: 25px;
 	background: red url(../images/clear-bg.png) repeat-x;
-	text-shadow: none; 
+	text-shadow: none;
  }
- 
+
  /* landing page */
- 
+
  #home {
-	text-align: center; 
+	text-align: center;
  }
 .homepage {
  	background: #4a322f url(../images/synergo-bg.png);
-	position:absolute; 
-    top:0; 
-	left:0; 
-	right:0; 
+	position:absolute;
+    top:0;
+	left:0;
+	right:0;
 	bottom:0;
 }
 .homepage h4 {
 	color: black;
 	font-size: 1.2em;
 	margin: 10px auto -30px;
-	text-shadow: 0 0 2px rgb(108, 172, 231);	
+	text-shadow: 0 0 2px rgb(108, 172, 231);
 }
 .homepage h1 {
- 	color: rgb(108,172,231); 
+ 	color: rgb(108,172,231);
 	text-shadow: 0 0 5px black;
 	margin: 30px 0 10px;
 	font-size: 3em;
@@ -41,7 +41,7 @@
 	 font-size: 1.8em;
 	 color: #DED5C3;
 	 text-shadow: 0 2px 1px black;
-	 margin: 10px 0 -25px; 
+	 margin: 10px 0 -25px;
 	 }
  #landingList {
 	list-style: none;
@@ -54,9 +54,9 @@
 	 border: none;
  }
  #landingList a, #tipslist a, #morelist a {
-	text-decoration: none; 
+	text-decoration: none;
 	color: #DED5C3;
-	text-shadow: none; 
+	text-shadow: none;
 	line-height: 1.2em;
 	display: block;
  }
@@ -66,33 +66,33 @@
  }
  .copyright, .guide-btn a {
 	color: #DED5C3 !important;
-	text-shadow: none; 
+	text-shadow: none;
  }
- 
+
  /* elements list pages */
- 
+
  .guide-btn a {
 	display: block;
 	line-height: 1.8em;
  }
- 
- 
+
+
  /* guideline pages */
 
  .guidelines {
 	margin: 25px auto 25px auto;
  }
-  
+
   /* styling the ADD button */
 
 .addtoday {
-	background: #4a322f;	
+	background: #4a322f;
 }
 
 /* active links */
 
 .guide-btn a:active, #landingList li:active, #tips a:active, #more a:active {
-	background: white;	
+	background: white;
 }
 
 /* today page */
@@ -128,12 +128,12 @@
 /* quotes page */
 
 #tips3 h4, #tips4 h4 {
-	margin-bottom: -20px;	
+	margin-bottom: -20px;
 }
 
 /* tips pages */
 
-#tips, #tips1, #tips2, #tips3, #tips4, #today, #more, #synergo, #acct, #acknowledge, #portables, #lows, #highs {	
+#tips, #tips1, #tips2, #tips3, #tips4, #today, #more, #synergo, #acct, #acknowledge, #portables, #lows, #highs {
 	background: #4a322f url(../images/synergo-bg.png);
 }
 
@@ -148,7 +148,7 @@
 }
 
 #tipslist a, #morelist a {
-	font-size: 1.2em;	
+	font-size: 1.2em;
 }
 
 
